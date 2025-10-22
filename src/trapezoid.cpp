@@ -18,7 +18,7 @@ Trapezoid::operator double() const {
 }
 
 void Trapezoid::print(std::ostream& os) const {
-    os << "Координаты вершин трапеции (начиная с верхней" 
+    os << "Координаты вершин трапеции (начиная с верхней " 
           "левой точки и по часовой стрелке)\n" 
        << "(" << cx_bottom - top / 2.0 << "," << cy_bottom + h << ") "
        << "(" << cx_bottom + top / 2.0 << "," << cy_bottom + h << ") "

@@ -58,7 +58,7 @@ int main() {
         double cy = figures[i]->center_y();
         double area = static_cast<double>(*figures[i]);
         std::cout << "Фигура " << i << ": центр=(" << cx << ", " << cy << "), площадь=" << area << std::endl;
-        figures[i]->print(std::cout);
+        std::cout << *figures[i] << std::endl;
     }
     std::cout << "Общая площадь=" << total_area(figures, count) << std::endl;
 
